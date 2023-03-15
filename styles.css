@@ -1,0 +1,57 @@
+/*@mixin transition{
+    -webkit-transition : all 0.5s ease-in-out ;
+    -moz-transition : all 0.5s ease-in-out ;
+     transition : all 0.5s ease-in-out;
+}
+
+@mixin corners($radius){
+    -moz-border-radius : $radius;
+    -webkit-border-radius : $radius;
+    border-radius: $radius;
+    -khtml-border-radius: $radius;
+}*/
+
+body{
+    background-color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+.wrapper{
+width : 800px;
+margin: 30px auto;
+color: black;
+text-align: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#seconds, #tens {
+    font-size: 2em;
+}
+
+button{
+    border-radius: 5px;
+    background-color: azure;
+    color: black;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+    font: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+
+}
+button:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: aquamarine;
+    border:  1px solid aquamarine;
+    color:azure;
+}
