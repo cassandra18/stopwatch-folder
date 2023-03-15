@@ -12,7 +12,7 @@
 }*/
 
 body{
-    background-color: azure;
+    background-color: rgb(29, 151, 217);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100%;
 }
@@ -37,12 +37,12 @@ h1{
 
 button{
     border-radius: 5px;
-    background-color: azure;
+    background-color: rgb(29, 151, 217);
     color: black;
     border: 1px solid white;
     text-decoration: none;
     cursor: pointer;
-    font: 1.2em;
+    font-size: 1.2em;
     padding: 18px 10px;
     width: 180px;
     margin: 10px;
@@ -51,7 +51,7 @@ button{
 }
 button:hover{
     transition: all 0.5s ease-in-out;
-    background-color: aquamarine;
-    border:  1px solid aquamarine;
+    background-color: rgb(29, 151, 217);
+    border:  1px solid rgb(29, 151, 217);
     color:azure;
 }
